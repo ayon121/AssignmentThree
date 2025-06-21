@@ -15,7 +15,7 @@ bookRoutes.post("/", async (req: Request, res: Response) => {
             "data": book,
         });
     } catch (error: any) {
-        res.status(500).json({
+        res.status(404).json({
             message: "Validation failed",
             success: false,
             error: error,
@@ -58,7 +58,7 @@ bookRoutes.get("/", async (req: Request, res: Response) => {
         });
 
     } catch (error: any) {
-        res.status(500).json({
+        res.status(404).json({
             message: "Validation failed",
             success: false,
             error: error,
@@ -82,7 +82,7 @@ bookRoutes.get("/:bookId", async (req: Request, res: Response) => {
 
 
     } catch (error) {
-        res.status(500).json({
+        res.status(404).json({
             message: "Validation failed",
             success: false,
             error: error,
@@ -106,7 +106,7 @@ bookRoutes.put("/:bookId", async (req: Request, res: Response) => {
         });
 
     } catch (error) {
-        res.status(500).json({
+        res.status(404).json({
             message: "Validation failed",
             success: false,
             error: error,
@@ -127,7 +127,7 @@ bookRoutes.delete("/:bookId", async (req: Request, res: Response) => {
         });
 
     } catch (error) {
-        res.status(500).json({
+        res.status(404).json({
             message: "Validation failed",
             success: false,
             error: error,

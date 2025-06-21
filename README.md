@@ -35,7 +35,7 @@
 
 
 
-<h2>📘 Book Model Fields & Validation</h2>
+<h2> Book Model Fields & Validation</h2>
 <ul>
   <li><strong>title</strong> (<code>string</code>) — <em>Mandatory</em>. The book’s title.</li>
   <li><strong>author</strong> (<code>string</code>) — <em>Mandatory</em>. The book’s author.</li>
@@ -53,7 +53,7 @@
 
 
 
-<h2>📗 Borrow Model Fields & Validation</h2>
+<h2> Borrow Model Fields & Validation</h2>
 <ul>
   <li><strong>book</strong> (<code>ObjectId</code>) — <em>Mandatory</em>. References the borrowed book’s ID.</li>
   <li><strong>quantity</strong> (<code>number</code>) — <em>Mandatory</em>. Positive integer representing the number of copies borrowed.</li>

@@ -23,7 +23,7 @@ borrowRoutes.post("/", async (req: Request, res: Response) => {
             data: borrowRecord,
         });
     } catch (error) {
-        res.status(500).json({
+        res.status(404).json({
             message: "Validation failed",
             success: false,
             error: error,
@@ -86,7 +86,7 @@ borrowRoutes.get("/", async (req, res) => {
 
 
     } catch (error) {
-        res.status(500).json({
+        res.status(404).json({
             message: "Validation failed",
             success: false,
             error: error,
