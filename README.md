@@ -105,3 +105,9 @@ MONGODB_URI=mongodb://localhost:27017/library
 
 <p><strong>Note:</strong> Make sure MongoDB is running locally or provide a cloud MongoDB URI.</p>
 
+
+
+<h2>Author</h2>
+<p>Created by <strong>Ayon Saha</strong><br>
+GitHub: <a href="https://github.com/ayon121" target="_blank">https://github.com/ayon121</a><br>
+
