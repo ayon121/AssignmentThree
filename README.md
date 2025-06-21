@@ -69,7 +69,7 @@
 <ol>
   <li>
     <strong>Clone the repository:</strong><br>
-    <pre><code>git clone https://github.com/your-username/your-repo-name.git</code></pre>
+    <pre><code>git clone https://github.com/ayon121/AssignmentThree.git</code></pre>
   </li>
 
   <li>
