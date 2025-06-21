@@ -30,6 +30,7 @@
   <li>Business logic enforcement (e.g., availability control on borrow)</li>
   <li>Use of aggregation pipeline</li>
   <li>At least one Mongoose static or instance method</li>
+  <li>Use of Mongoose middleware (pre, post)</li>
   <li>Filtering features</li>
 </ul>
 
