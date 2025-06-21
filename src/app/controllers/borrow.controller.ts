@@ -46,7 +46,6 @@ borrowRoutes.get("/", async (req, res) => {
                 }
 
             },
-
             // pipeline 2  grouping by bookid
             {
                 $group: {
@@ -54,7 +53,6 @@ borrowRoutes.get("/", async (req, res) => {
                     totalQuantity: { $sum: "$quantity" }
                 }
             },
-
             // pipeline 3 - macthing tables
             {
                 $lookup: {
@@ -64,12 +62,10 @@ borrowRoutes.get("/", async (req, res) => {
                     as: "bookInfo"
                 }
             },
-
             // pipeline 4 - unwinding bookinfo from previous pipeline
             {
                 $unwind: "$bookInfo"
             },
-
             // pipeline 5 - projecting required fields
             {
                 $project: {
