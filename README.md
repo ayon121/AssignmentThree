@@ -75,7 +75,7 @@
 
   <li>
     <strong>Navigate to the project directory:</strong><br>
-    <pre><code>cd your-repo-name</code></pre>
+    <pre><code>cd AssignmentThree</code></pre>
   </li>
 
   <li>
